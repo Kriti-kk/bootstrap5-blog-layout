@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap5</title>
+  <!-- CSS link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">BMsk</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="gallery.html">gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="contactus.html">contact us</a>
+        </li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- about us section start -->
+  <section class="main_heading my-5">
+    <div class="text-center">
+      <h1 class="display-4">about us</h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+          <figure>
+            <img src="images/cutie.jpg" alt="about images" class="img-fluid about_img">
+          </figure>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column">
+          <h1>My Journey</h1>
+          <p>
+            Some people use the terms 'internet' and 'World Wide Web' interchangeably. They think they are the same thing, but it is not so. Internet is entirely different from WWW. It is a worldwide network of devices like computers, laptops, tablets, etc. It enables users to send emails to other users and chat with them online. 
+          </p>
+          <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="right" title="Who AM I?">Check More</button>
+        </div>
+      </div>
+    </div>
+    
+    <!--scrollspy start-->
+    <div class="container">
+      <div class="row">
+        <div id="navbar-example" class="navbar-container">
+  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">BMsk</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">Bio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example scrollspy-container" tabindex="0">
+    <h4 id="scrollspyHeading1">First heading</h4>
+    <p>BMsk is a visionary fashion designer known for their innovative designs and unique style. With a passion for sustainability and creativity, they have made a mark in the fashion industry by blending traditional techniques with modern trends. Their collections have been showcased in prestigious fashion shows around the world, and they continue to inspire with their bold and artistic approach to fashion.</p>
+    
+    <h4 id="scrollspyHeading2">Second heading</h4>
+    <p>A full bag of clothes is not only happiness but confidence. #buyconfidance</p>
+    
+    <h4 id="scrollspyHeading3">Third heading</h4>
+    <p>The way you smile at the time of leaving our store with two bags full of clothes is the thing that we make dresses for.</p>
+    
+    <h4 id="scrollspyHeading4">Fourth heading</h4>
+    <p>In the dynamic realm of fashion, where creativity meets craftsmanship and style intertwines with self-expression, Instagram serves as the ultimate canvas for fashion designers to showcase their artistry. Crafting a compelling Instagram bio is paramount for designers seeking to captivate their audience and convey the essence of their creative vision.</p>
+    
+    <h4 id="scrollspyHeading5">Fifth heading</h4>
+    <p>The world of fashion is dynamic, with trends evolving at a rapid pace. For those on Instagram, a well-crafted bio can set the tone for your entire profile. It's your elevator pitch, capturing what you stand for and what your followers can expect. A great bio not only communicates your style but also reflects your personality and uniqueness.</p>
+  </div>
+</div>
+
+      </div>
+    </div>
+    <!--scrollspy end-->
+
+  </section>
+  <!-- about us section end -->
+
+<footer class="bg-secondary text-center text-white">
+     <p>
+       @copyright KK_BMsk
+     </p>
+   </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      // Initialize tooltips with correct Bootstrap 5 syntax
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+      
+      // Initialize ScrollSpy
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, { target: '#navbar-example2'})
+    </script>
+</body>
+</html>
